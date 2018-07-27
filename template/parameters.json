@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southindia"
+        },
+        "virtualMachineName": {
+            "value": "myubuntuVM"
+        },
+        "virtualMachineSize": {
+            "value": "Basic_A1"
+        },
+        "adminUsername": {
+            "value": "ashish"
+        },
+        "virtualNetworkName": {
+            "value": "Epsilon-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "myubuntuvm96"
+        },
+        "networkSecurityGroupName": {
+            "value": "myubuntuVM-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "storageAccountName": {
+            "value": "webdevcore1disks481"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "webdevcore1diag819"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/17da432e-dbbb-4d0f-ae65-6e87b57da64f/resourceGroups/WebDevCore1/providers/Microsoft.Storage/storageAccounts/webdevcore1diag819"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "publicIpAddressName": {
+            "value": "myubuntuVM-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
